@@ -1,10 +1,8 @@
 #include<stdio.h>
 /*
- * main - Entry point
+ * main: print a string using puts buitin function
  *
- * Description: 'the program's description'
- *
- * Return: Always 0 (Success)
+ * Return 0 on success
  */
 int main(void)
 {
