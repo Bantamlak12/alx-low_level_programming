@@ -1,8 +1,8 @@
 #include<stdio.h>
 /*
- * main - Is the entry point
- * void
- * return 0 for int
+ * main - Entry point
+ * 
+ * Return: (0) Success
  */
 int main(void)
 {
