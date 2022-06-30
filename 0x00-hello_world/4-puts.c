@@ -1,10 +1,9 @@
 #include<stdio.h>
-/***
- * main: print a string puts function
+\**
+ * main - Programming is like building a multilingual puzzle
  *
- * Return 0 on success
- *
- ***/
+ * Return: Always 0
+ **/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
