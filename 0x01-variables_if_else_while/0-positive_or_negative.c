@@ -7,8 +7,8 @@
  **/
 int main(void)
 {
-	int n;
-	scanf("%d",&n);
+	int (n);
+	scanf("%d", &n);
 	if (n > 0)
 	{
 		printf("%d is positive\n ", n);
@@ -21,5 +21,5 @@ int main(void)
 	{
 		printf("%d is zero\n ", n);
 	}
-	return 0;
+	return (0);
 }
