@@ -5,7 +5,7 @@
  *main - prints the outs as positive, negative, or zero
  *Return: Always 0 to success
  **/
-int main7(void)
+int main(void)
 {
 	int n;
 	printf("Enter a numner : ");
