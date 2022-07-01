@@ -9,7 +9,7 @@ int main(void)
 {
 	int n;
 	printf("Enter a numner : ");
-	scanf("%d", &n);
+	read ("%d", &n);
 	if (n>0)
 	{
 		printf("%d is positive", n);
