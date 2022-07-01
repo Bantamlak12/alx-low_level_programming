@@ -1,25 +1,27 @@
 #include<stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include<stdlib.h>
+#include<time.h>
 /**
- * main - print if an integer is positive, negative, or zero
- * Return: Always 0 0n success
+ *main - prints the outs as positive, negative, or zero
+ *Return: Always 0 to success
  **/
-int main(void)
+int main7(void)
 {
-	int (n);
+	int n;
+	printf("Enter a numner : ");
 	scanf("%d", &n);
-	if (n > 0)
+	if (n>0)
 	{
-		printf("%d is positive\n ", n);
+		printf("%d is positive", n);
 	}
-	else if (n < 0)
+	else if (n<0)
 	{
-		printf("%d is negative\n ", n);
+		printf("%d is negative",n);
 	}
 	else
 	{
-		printf("%d is zero\n ", n);
+		print("%d is zero", n);
 	}
-	return (0);
+	
+	return 0;
 }
