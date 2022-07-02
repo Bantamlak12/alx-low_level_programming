@@ -26,5 +26,9 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not zero\n", n, lastdigit);
 	}
+	else
+	{
+		printf("Last digit of %d is %d and is less than 6 and not zero\n", n, lastdigit);
+	}
 return (0);
 }
