@@ -3,7 +3,7 @@
  *main - prints all the numbers of base 16 in lowercase, followed by a new line
  *Return: 0 on success
  */
-int main (void)
+int main(void)
 {
 	int i = '0';
 	char ch = 'a';
@@ -17,5 +17,5 @@ int main (void)
 		putchar (ch);
 	}
 	putchar ('\n');
-        return (0);
+	return (0);
 }
