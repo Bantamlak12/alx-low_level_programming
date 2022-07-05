@@ -2,14 +2,14 @@
 /**
  * print_alphabet - prints alphabets 'a' to 'z'
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char a = 'a';
+	char ch = 'a';
 
-	while (a <= 'z')
+	while (ch <= 'z')
 	{
-		_putchar(a);
-		a++;
+		_putchar(ch);
+		ch++;
 	}
 	_putchar('\n');
 }
