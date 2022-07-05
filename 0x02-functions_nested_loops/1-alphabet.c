@@ -1,9 +1,8 @@
-#include<stdio.h>
 #include "main.h"
 /**
- *print_alphabet - prints alphabets 'a' to 'z'
+ * print_alphabet - prints alphabets 'a' to 'z'
  */
-void print_alphabet(void)
+void print_alphabet(void);
 {
 	char a = 'a';
 
