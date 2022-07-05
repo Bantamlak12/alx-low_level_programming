@@ -1,8 +1,9 @@
 #include "main.h"
+#include<string.h>
 /**
  * print_alphabet - prints alphabets 'a' to 'z'
  */
-void print_alphabet()
+void print_alphabet(void)
 {
 	char ch = 'a';
 
