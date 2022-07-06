@@ -1,16 +1,12 @@
 #include "main.h"
-#include<string.h>
 /**
  * print_alphabet - prints alphabets 'a' to 'z'
  */
 void print_alphabet(void)
 {
-	char ch = 'a';
+	char ch;
 
-	while (ch <= 'z')
-	{
+	for (ch = 'a'; ch <= 'z'; ch++)
 		_putchar(ch);
-		ch++;
-	}
 	_putchar('\n');
 }
