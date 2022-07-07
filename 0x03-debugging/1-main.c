@@ -11,7 +11,7 @@ int main(void)
 
         i = 0;
 
-        while (i < 10)/*i is not incrementing, it always return to 0*/
+        while (i < 10)
 
         {
 
@@ -20,5 +20,5 @@ int main(void)
         }
         printf("Infinite loop avoided! \\o/\n");
 
-        return (0);
+        return (0); /*i is not incrementing, it always return o*/
 }
