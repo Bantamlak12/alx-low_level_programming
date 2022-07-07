@@ -20,5 +20,5 @@ int main(void)
         }
         printf("Infinite loop avoided! \\o/\n");
 
-        return (0); /*i never increments so it is always going to print 0*/
+        return (0);
 }
