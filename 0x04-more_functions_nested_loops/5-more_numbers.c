@@ -10,13 +10,10 @@ void more_numbers(void)
 	{
 		for (hor = 0; hor <= 14; hor++)
 		{
-
 			if (hor > 9)
-
-			_putchar((hor / 10) +'0');
-
-		_putchar((hor % 10) + '0');
+				_putchar((hor / 10) + '0');
+			_putchar((hor % 10) + '0');
 		}
-	_putchar('\n');
+		_putchar('\n');
 	}
 }
