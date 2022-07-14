@@ -2,19 +2,23 @@
 #include<string.h>
 
 /**
- * _strncat - a function that concatenates two strings
+ * _strcat - a function that concatenates two strings
  * @dest: char parameter
  * @src: char parameter
- * @n: char parameter
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	char dest[] = "Hello ";
-	char src[] = "World";
+	int index = 0;
+	int len1, len2;
 
-	char *_strcat = strcat(dest, src);
+	len1 = strlen(dest);
+	len2 = strlen(src);
 
-
-	return (_strcat);
+	for (index = 0; index < len2; index++)
+	{
+		dest[len1 + index] = src[index];
+	}
+	return (dest);
 }
