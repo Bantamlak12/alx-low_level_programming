@@ -10,17 +10,18 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int ret;
+	int ret = 0;
 
 	ret = strcmp(s1, s2);
 	if (ret < 0)
 	{
-		return ('-');
+		return (ret);
 	}
 	else if (ret > 0)
-	{
-		return ('+');
+	{	
+		return (ret);
 	}
 	else
-		return ('0');
+
+	return (0);
 }
