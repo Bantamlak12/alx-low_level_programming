@@ -9,7 +9,7 @@
 
 int prime_check(int a, int p)
 {
-	if (p < 2 || a % f == 0)
+	if (p < 2 || a % p == 0)
 		return (0);
 	else if (a > p / 2)
 		return (1);
