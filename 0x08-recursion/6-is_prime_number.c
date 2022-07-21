@@ -19,8 +19,8 @@ int prime_check(int a, int p)
 
 /**
  * is_prime_number - a function that returns
- * 					1 if the input integer is a prime number
- *					otherwise return 0
+ *                   1 if the input integer is a prime number
+ *                   otherwise return 0
  * @n: an integer
  * Return: 1 if n is prime number
  */
