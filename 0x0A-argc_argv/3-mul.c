@@ -2,8 +2,11 @@
 #include<stdlib.h>
 
 /**
- *
- *
+ * main - a program that multiplies two numbers
+ * @argc: numbers passed through command line
+ * @argv: array of character
+ * Return: 1 if If the program does not receive two arguments
+ * 		   0 on success
  */
 
 int main(int argc, char *argv[])
