@@ -4,7 +4,7 @@
 /**
  * main - a program that prints the minimum number of
  *       coins to make change for an amount of money
- * @argc: number of argument pass through command line 
+ * @argc: number of argument pass through command line
  * @argv: array of numbers
  * Return: 0 for success or 1 for failure
  */
@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-			puts("Error");
-			return (1);
+		puts("Error");
+		return (1);
 	}
 	c = atoi(argv[1]);
 	if (c <= 0)
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		for ( i = 0; i <= 5; i++)
+		for (i = 0; i <= 5; i++)
 		{
 			d = c / s[i];
 			c -= d * s[i];
