@@ -9,28 +9,21 @@
  * Return: NULL if is equal to NULL
  *         on success, pointer to the duplicated string
  */
-
 char *_strdup(char *str)
 {
-	int size, i;
 	char *dup;
+	int i, size = 0;
 
 	if (str == NULL)
-	{
 		return (NULL);
-	}
+
 	for (i = 0; str[i]; i++)
 		size++;
-	dup = malloc(sizeof(char) * size + 1);
-	if (dup == NULL)
-	{
+	dup = malloc(sizeof(char) * size);
+	if (dup == 0)
 		return (NULL);
-	}
-	else
-	{
-		for (i = 0; str[i]; i++)
-			dup[i] = str[i];
-		dup[size] = '\0';
-	}
+	for (i = 0; str[i]; i++)
+		dup[i] = str[i];
+	dup[i] = '\0';
 	return (dup);
 }
