@@ -9,6 +9,7 @@
  * Return: NULL if is equal to NULL
  *         on success, pointer to the duplicated string
  */
+
 char *_strdup(char *str)
 {
 	int size, i;
