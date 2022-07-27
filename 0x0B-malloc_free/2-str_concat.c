@@ -10,23 +10,23 @@
 char *str_concat(char *s1, char *s2)
 {
 	int index, index2 = 0, size = 0;
-	char *ptr;
+	char *concat;
 
 	if (s1 == NULL && s2 == NULL)
-		return (NULL);
+		return "";
 
 	for (index = 0; s1[index] || s2[index]; index++)
 		size++;
-	ptr = malloc(sizeof(char) * size);
+	concat = malloc(sizeof(char) * size);
 
-	if (ptr == NULL)
+	if (concat == NULL)
 		return (NULL);
 
 	for (index = 0; s1[index]; index++)
-		ptr[index2++] = s1[index];
+		concat[index2++] = s1[index];
 
 	for (index = 0; s2[index]; index++)
-		ptr[index2++] = s2[index];
+		concat[index2++] = s2[index];
 
-	return (ptr);
+	return (concat);
 }
