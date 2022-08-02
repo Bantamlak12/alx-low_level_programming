@@ -16,6 +16,8 @@ struct dog
 };
 	typedef struct dog my_dog;
 
+	void init_dog(struct dog *d, char *name, float age, char *owner);
+
 	my_dog *poppy(char *name, float age, char *owner);
 
 #endif
