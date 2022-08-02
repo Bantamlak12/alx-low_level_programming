@@ -9,10 +9,6 @@ struct dog
 };
 	typedef struct dog my_dog;
 
-	int _putchar(char);
-	void init_dog(struct dog *d, char *name, float age, char *owner);
-	void print_dog(struct dog *d);
 	my_dog *poppy(char *name, float age, char *owner);
-	void smiley_dog(my_dog *d);
 
 #endif
