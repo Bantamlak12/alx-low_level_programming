@@ -13,5 +13,6 @@ struct dog
 	void init_dog(my_dog *d, char *name, float age, char *owner);
 	void print_dog(my_dog *d);
 	my_dog *poppy(char *name, float age, char *owner);
+	void smiley_dog(my_dog *d);
 
 #endif
