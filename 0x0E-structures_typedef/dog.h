@@ -16,6 +16,6 @@ struct dog
 };
 	typedef struct dog my_dog;
 
-	dog_t *new_dog(char *name, float age, char *owner);
+	my_dog *poppy(char *name, float age, char *owner);
 
 #endif
