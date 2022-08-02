@@ -10,7 +10,8 @@ struct dog
 	typedef struct dog my_dog;
 
 	int _putchar(char);
-
-	my_dog dog(char *name, float age, char *owner);
+	void init_dog(my_dog *d, char *name, float age, char *owner);
+	void print_dog(my_dog *d);
+	my_dog *poppy(char *name, float age, char *owner);
 
 #endif
