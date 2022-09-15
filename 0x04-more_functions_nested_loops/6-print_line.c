@@ -4,7 +4,7 @@
  *
  * @n: the number of times the character '_' is printed
  *
- * Return: Always (0)
+ * Return: Nothing
  */
 void print_line(int n)
 {
