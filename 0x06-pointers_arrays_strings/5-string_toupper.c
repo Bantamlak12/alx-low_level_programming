@@ -9,10 +9,10 @@ char *string_toupper(char *str)
 {
 	int index;
 
-	while (index != '0')
+	for (index = 0; index != '0'; index++)
 	{
-		for (index = 97; str[index] != 122; index++)
-		str[index] = str[index - 32];
+		if (index >= 97 && index <= 122)
+			str[index] = str[index - 32];
 	}
 	return (str);
 }
