@@ -2,13 +2,14 @@
 /**
  * leet - a function that encodes a string into 1337
  * @str: a string to be encoded into 1337
- * Return: encoded string
+ * Return: a pointer to encoded string
  */
 char *leet(char *str)
 {
 	char ch[] = {'a', 'e', 'o', 't', 'l'};
 	char num[] = {4, 3, 0, 7, 1};
 	int index;
+	char *ptr = str;
 
 	while (*str)
 	{
@@ -19,5 +20,5 @@ char *leet(char *str)
 		}
 		str++;
 	}
-	return (str);
+	return (ptr);
 }
