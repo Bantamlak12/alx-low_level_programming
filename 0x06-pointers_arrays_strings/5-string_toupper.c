@@ -12,7 +12,7 @@ char *string_toupper(char *str)
 	for (index = 0; index != '0'; index++)
 	{
 		if (index >= 97 && index <= 122)
-			str[index] = str[index - 32];
+			str[index] = str[index] - 32;
 	}
 	return (str);
 }
