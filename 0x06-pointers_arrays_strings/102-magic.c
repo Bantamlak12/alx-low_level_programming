@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - prints 98 after line(22) of code is changed
+ * Return: Always (0)
+ */
 int main(void)
 {
 	int n;
