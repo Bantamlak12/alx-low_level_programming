@@ -1,8 +1,5 @@
 #include <stdio.h>
-/**
- * main - prints 98 after line(22) of code is changed
- * Return: Always (0)
- */
+
 int main(void)
 {
 	int n;
@@ -19,7 +16,7 @@ int main(void)
 	 * - only one statement
 	 * - you are not allowed to code anything else than this line of code
 	 */
-	*(p + 5) = 98;
+	*(a + 5) = 98;
 	/* ...so that this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);
