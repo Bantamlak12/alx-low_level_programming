@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * _strstr - a function that locates a substring
@@ -19,8 +18,7 @@ char *_strstr(char *haystack, char *needle)
 	{
 		if (haystack[i] == needle[i])
 		{
-			do
-			{
+			do{
 				if (needle[i + 1] == '\0')
 					return (haystack);
 				i++;
