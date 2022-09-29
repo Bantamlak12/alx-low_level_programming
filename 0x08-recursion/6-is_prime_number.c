@@ -1,7 +1,10 @@
 #include "main.h"
 /**
- *
- *
+ * check_prime - checks for prime
+ * @i: a natural number starting from 2
+ * @num: a number to be checked if it's prime
+ * Return: 0 if the number is not prime
+ *		   1 if the number is prime
  */
 int check_prime(int i, int num)
 {
@@ -13,8 +16,8 @@ int check_prime(int i, int num)
 }
 /**
  * is_prime_number - checks for prime number
- * @n:
- * Return:
+ * @n: a number to be checked if it's prime
+ * Return: 0 if n is less two, and call check_prime function
  */
 int is_prime_number(int n)
 {
