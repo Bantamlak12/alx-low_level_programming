@@ -108,9 +108,7 @@ This file is archive, a static library. Different `.c` files with the above func
 
     ```
 
-    The nm command lists the names that are stored
-
-inside the archive. as seen below.
+    The nm command lists the names that are stored inside the archive. as seen below.
 
 ## **create_static_lib.sh**
 
