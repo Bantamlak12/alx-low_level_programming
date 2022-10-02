@@ -11,9 +11,8 @@ This directory contains header file, archive (the '.a') file and a script for th
 
 
 ## *_main.h_*
-Is a header file that contains the following list of prototypes.
+Is a header file that contains the following list of **prototypes**.
 
-**Prototypes**
 
 int _putchar(char c);
 
@@ -81,9 +80,7 @@ char *_strstr(char *haystack, char *needle);
 
 5. **nm** **libmy.a**
 
-* The nm command lists the names that are stored
-
-inside the archive. as seen below.
+* The nm command lists the names that are stored inside the archive.
 
 ## **create_static_lib.sh**
 
