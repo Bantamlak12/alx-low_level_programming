@@ -64,7 +64,7 @@ char *_strstr(char *haystack, char *needle);
 
 ## **libmy.a**
 
-This file is archive, a static library. Different `.c` files with the above functions are wrapped up as an object `.o` files. so it's easier to share the codes between projectes. Let's see how to make a static library
+This file is archive, a static library. Different `.c` files with the above functions are wrapped up as an object `.o` files. so it's easier to share the codes between projectes. Let's see how to creat a static library
 
 
 
