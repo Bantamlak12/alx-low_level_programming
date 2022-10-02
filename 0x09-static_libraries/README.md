@@ -14,7 +14,7 @@ This directory contains test file, header file, archive (the `.a`) file and a sc
 
 
 
-* [test](https://github.com/Bantamlak12/alx-low_level_programming/tree/master/0x09-static_libraries/test) - is a  `main.c` file provided by ALX Africa partnership with Holberton School to test one `C` task in this project.
+* [test](https://github.com/Bantamlak12/alx-low_level_programming/tree/master/0x09-static_libraries/test) - is a directory that contains a `main.c` file provided by ALX Africa partnership with Holberton School to test `C` task in this project.
 
 
 
@@ -126,4 +126,4 @@ This directory contains test file, header file, archive (the `.a`) file and a sc
 
 
 
-* [create_static_lib.sh](https://github.com/Bantamlak12/alx-low_level_programming/blob/master/0x09-static_libraries/create_static_lib.sh) - a bash script that create a static library. The above procedures are used to create one.
+* [create_static_lib.sh](https://github.com/Bantamlak12/alx-low_level_programming/blob/master/0x09-static_libraries/create_static_lib.sh) - a bash script that can creates a static library. The above procedures are used to create one.
