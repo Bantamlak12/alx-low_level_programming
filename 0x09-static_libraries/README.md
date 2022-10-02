@@ -2,7 +2,7 @@
 
 ## **Description**
 
-Static libraries are a collections of object files that are linked into the program during the linking phase of compilation, and are not relevant during runtime once the excutable file is created. [click the link to learn more](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
+<mark>Static</mark> libraries are a collections of object files that are linked into the program during the linking phase of compilation, and are not relevant during runtime once the excutable file is created. [click the link to learn more](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
 
 
 
