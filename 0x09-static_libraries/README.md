@@ -10,7 +10,13 @@ I've learned what static library is, how to create one, and how to use it.
 
 
 
-This directory contains header file, archive (the `.a`) file and a script.
+This directory contains test file, header file, archive (the `.a`) file and a script.
+
+
+
+* [test](https://github.com/Bantamlak12/alx-low_level_programming/tree/master/0x09-static_libraries/test) - is a  `main.c` file provided by ALX Africa partnership with Holberton School to test one `C` task in this project.
+
+
 
 * [main.h](https://github.com/Bantamlak12/alx-low_level_programming/blob/master/0x09-static_libraries/main.h) - is a header file that contains the following prototypes.
 
@@ -75,6 +81,8 @@ This directory contains header file, archive (the `.a`) file and a script.
 * [libmy.a](https://github.com/Bantamlak12/alx-low_level_programming/blob/master/0x09-static_libraries/libmy.a) - this file is archive, a static library. Different `.c` files with the above functions are wrapped up as`.o` ( objects ) files. so it's easier to share the codes between projectes. Let's see how to make a static library.
 
     * **How do I create a static library ?**
+
+
 
         1. ```
 
