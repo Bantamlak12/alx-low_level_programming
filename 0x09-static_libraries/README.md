@@ -62,7 +62,7 @@ char *_strstr(char *haystack, char *needle);
 
 
 
-## **libmy.a**
+* [**libmy.a**]
 
 This file is archive, a static library. Different `.c` files with the above functions are wrapped up as an object `.o` files. so it's easier to share the codes between projectes. Let's see how to make a static library
 
@@ -70,23 +70,43 @@ This file is archive, a static library. Different `.c` files with the above func
 
 #### How do I create a static library ?
 
-1. `gcc -c .c`
+1. ```
+
+    gcc -c *.c
+
+    ```
 
 * This step compiles all the `.c` files and an object `.o` files are then created.
 
-2. `ar rc libmy.a .o`
+2. ```
+
+    ar rc libmy.a .o
+
+    ```
 
 * `ar` stands for archiver, it creates a static library and then add all the object files within it. The `r` flag tells `ar` if the `.a` file is already exist it will then update the entire object files within it. The `c` flag tells the `ar` to create a library if it doesn't exist.
 
-3. `ranlib libmy.a`
+3. ```
+
+    ranlib libmy.a
+
+    ```
 
 * There is a need to indext the archiver after its creation to speed up symbols looking up during compilation.
 
-4. `ar -t libmy.a`
+4. ```
+
+    ar -t libmy.a
+
+    ```
 
 * To see all the created object files
 
-5. `nm libmy.a`
+5. ```
+
+    nm libmy.a
+
+    ```
 
 * The nm command lists the names that are stored
 
