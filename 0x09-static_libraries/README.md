@@ -14,7 +14,7 @@ This directory contains test file, header file, archive (the `.a`) file and a sc
 
 
 
-* [test](https://github.com/Bantamlak12/alx-low_level_programming/tree/master/0x09-static_libraries/test) - is a directory that contains a `main.c` file provided by ALX Africa partnership with Holberton School to test `C` task in this project.
+* [test](https://github.com/Bantamlak12/alx-low_level_programming/tree/master/0x09-static_libraries/test) - is a directory that contains a  `main.c` file provided by ALX Africa partnership with Holberton School to test a `C` task in this project.
 
 
 
@@ -84,45 +84,19 @@ This directory contains test file, header file, archive (the `.a`) file and a sc
 
 
 
-        1. ```
+        1. ` gcc -c *.c` - This step compiles all the `.c` files and a `.o` object files are then created.
 
-            gcc -c *.c
 
-            ```
 
-            This step compiles all the `.c` files and a `.o` object files are then created.
+        1. `ar rc libmy.a *.o` - `ar` stands for archiver, it creates a static library and then add all the object files into it. The `r` flag tells `ar` if the `.a` file is already exist it will then update the entire object files within it. The `c` flag tells the `ar` to create a library if it doesn't exist.
 
-        1. ```
 
-            ar rc libmy.a *.o
 
-            ```
+        1. `ranlib libmy.a` - There is a need to indext the archiver after its creation to speed up symbols looking up during compilation.
 
-            `ar` stands for archiver, it creates a static library and then add all the object files into it. The `r` flag tells `ar` if the `.a` file is already exist it will then update the entire object files within it. The `c` flag tells the `ar` to create a library if it doesn't exist.
+        1. `ar -t libmy.a` - To see all the created object files
 
-        1. ```
-
-            ranlib libmy.a
-
-            ```
-
-            There is a need to indext the archiver after its creation to speed up symbols looking up during compilation.
-
-        1. ```
-
-            ar -t libmy.a
-
-            ```
-
-            To see all the created object files
-
-        1. ```
-
-            nm libmy.a
-
-            ```
-
-            The nm command lists the names that are stored inside the archive.
+        1. `nm libmy.a` - The nm command lists the names that are stored inside the archive.
 
 
 
