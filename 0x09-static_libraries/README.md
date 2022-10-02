@@ -13,8 +13,7 @@ This directory contains header file, archive (the '.a') file and a script for th
 ## *_main.h_*
 Is a header file that contains the following list of prototypes.
 
-**Prototypes**|
----
+**Prototypes**
 
 int _putchar(char c);
 
