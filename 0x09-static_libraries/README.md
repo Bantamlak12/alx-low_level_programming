@@ -1,8 +1,6 @@
-# **tatic libraries**
+# **Static Libraries**
 
 ## **Description**
-
-___
 
 Static libraries are a collections of object files that are linked into the program during the linking phase of compilation, and are not relevant during runtime once the excutable file is created. [click the link to learn more](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
 
@@ -12,25 +10,19 @@ This directory contains header file, archive (the '.a') file and a script for th
 
 
 
----
-
 ## *_main.h_*
 
+
+
+Is a header file that contains the following list of prototypes.
+
+
+**Prototypes**|
 ---
 
+int _putchar(char c);
 
-
-<p>Is a header file that contains the following list of prototypes.</p>
-
-
-
-|Prototypes|
-
-|---|
-
-| int _putchar(char c);
-
-int _islower(int c);
+int _islower(int c);|
 
 int _isalpha(int c);
 
@@ -68,23 +60,15 @@ char *_strpbrk(char *s, char *accept);
 
 char *_strstr(char *haystack, char *needle);
 
-|
 
----
 
-## **libmy.a and create_static_lib.sh**
-
----
+## **libmy.a**
 
 <p>This file is archive, a static library. Different '.c' files with the above functions are wrapped up as an object '.o' files. so it's easier to share the codes between projectes. Let's see how to make a static library</p>
 
 
 
----
-
 #### How do I create a static library ?
-
----
 
 1. **gcc** **-c** ***.c**
 
@@ -107,3 +91,7 @@ char *_strstr(char *haystack, char *needle);
 * The nm command lists the names that are stored
 
 inside the archive. as seen below.
+
+## **create_static_lib.sh**
+
+A script that can create a static library. The above procedure is use to create it.
