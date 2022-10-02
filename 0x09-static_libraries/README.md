@@ -126,4 +126,4 @@ This directory contains test file, header file, archive (the `.a`) file and a sc
 
 
 
-* [create_static_lib.sh](https://github.com/Bantamlak12/alx-low_level_programming/blob/master/0x09-static_libraries/create_static_lib.sh) - a bash script that can creates a static library. The above procedures are used to create one.
+* [create_static_lib.sh](https://github.com/Bantamlak12/alx-low_level_programming/blob/master/0x09-static_libraries/create_static_lib.sh) - a bash script that can create a static library. The above procedures are used to create one.
