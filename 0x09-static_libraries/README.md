@@ -11,11 +11,7 @@ This directory contains header file, archive (the '.a') file and a script for th
 
 
 ## *_main.h_*
-
-
-
 Is a header file that contains the following list of prototypes.
-
 
 **Prototypes**|
 ---
@@ -60,8 +56,13 @@ char *_strpbrk(char *s, char *accept);
 
 char *_strstr(char *haystack, char *needle);
 
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> 40b7c06c7609da79d016140194a96b82e9bd88e6
 ## **libmy.a**
 
 <p>This file is archive, a static library. Different '.c' files with the above functions are wrapped up as an object '.o' files. so it's easier to share the codes between projectes. Let's see how to make a static library</p>
