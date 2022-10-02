@@ -100,7 +100,7 @@ This file is archive, a static library. Different `.c` files with the above func
 
     ```
 
-    To see all the created object files
+    `t` flag is used with `ar` to see all the created object files.
 
 1. ```
 
