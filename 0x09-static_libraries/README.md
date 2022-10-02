@@ -1,4 +1,4 @@
-# Static Libraries**
+# **Static Libraries**
 
 ## **Description**
 
