@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* main - prints 98 after dereferencing array 'a' */
 int main(void)
 {
 	int n;
