@@ -17,9 +17,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *nconcat;
 
 	if (s1 == NULL)
+	{
 		return "";
+	}
 	if (s2 == NULL)
+	{
 		return "";
+	}
 
 	len = strlen(s1) + n + 1;
 
