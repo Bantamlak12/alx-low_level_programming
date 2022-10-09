@@ -1,1 +1,1 @@
-# C - Programming language is fun
+# C - Programming language
