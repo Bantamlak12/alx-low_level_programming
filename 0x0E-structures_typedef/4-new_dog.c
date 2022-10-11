@@ -2,12 +2,46 @@
 #include <stdlib.h>
 #include <string.h>
 
+int _strlen(char *str);
+char *_strcpy(char *dest, char *src);
+
+/**
+ * _strlen - a function that finds length of string
+ * @str: a string  to be find for length
+ * Return: its length
+ */
+
+int _strlen(char *str)
+{
+	int i, len;
+
+	for (i = 0; str[i]; i++)
+		len++;
+	return (len);
+}
+
+/**
+ * _strcpy - a function that copy a source to destination
+ * @dest: a dest string that is going to contain a copy of source string
+ * @src: a source string to be copied
+ * Return: a dest that has a copy of source
+ */
+
+char *_strcpy(char *dest, char *src)
+{
+	int i;
+
+	for (i = 0; src[i]; i++)
+		dest[i] = src[i];
+	return (dest);
+}
+
 /**
  * new_dog -  a function that creates a new dog
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
- * Return: a pointer to the new struct dog
+ * Return: a pointer to the a struct dog
  *		   NULL if the function fails
  */
 
@@ -23,7 +57,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (poppy == NULL)
 		return (NULL);
 
-	poppy->name = malloc(sizeof(char) * strlen(name) + 1);
+	poppy->name = malloc(sizeof(char) * _strlen(name) + 1);
 	if (poppy->name == NULL)
 	{
 		free(poppy->name);
