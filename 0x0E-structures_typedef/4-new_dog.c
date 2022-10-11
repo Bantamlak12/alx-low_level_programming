@@ -3,7 +3,6 @@
 
 int _strlen(char *str);
 char *_strcpy(char *dest, char *src);
-dog_t *new_dog(char *name, float age, char *owner);
 
 /**
  * _strlen - a function that finds length of string
@@ -33,6 +32,7 @@ char *_strcpy(char *dest, char *src)
 
 	for (i = 0; src[i]; i++)
 		dest[i] = src[i];
+	dest[i] = '\0';
 	return (dest);
 }
 
