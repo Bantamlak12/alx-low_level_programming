@@ -12,7 +12,7 @@ char *_strcpy(char *dest, char *src);
 
 int _strlen(char *str)
 {
-	int i, len;
+	int i, len = 0;
 
 	for (i = 0; str[i]; i++)
 		len++;
@@ -53,25 +53,21 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 
 	poppy = malloc(sizeof(dog_t));
-
 	if (poppy == NULL)
 		return (NULL);
-
-	poppy->name = malloc(sizeof(char) * _strlen(name) + 1);
+	poppy->name = malloc(sizeof(char) * (_strlen(name) + 1));
 	if (poppy->name == NULL)
 	{
 		free(poppy->name);
 		return (NULL);
 	}
-
-	poppy->owner = malloc(sizeof(char) * _strlen(owner) + 1);
+	poppy->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
 	if (poppy->owner == NULL)
 	{
 		free(poppy->owner);
 		free(poppy);
 		return (NULL);
 	}
-
 	poppy->name = _strcpy(poppy->name, name);
 	poppy->age = age;
 	poppy->owner = _strcpy(poppy->owner, owner);
