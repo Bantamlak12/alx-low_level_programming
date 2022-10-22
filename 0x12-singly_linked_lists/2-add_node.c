@@ -21,7 +21,10 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	dup = strdup(str);
 	if (dup == NULL)
+	{
+		free(node);
 		return (NULL);
+	}
 	for (i = 0; str[i]; i++)
 		len1++;
 	node->str = dup;
