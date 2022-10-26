@@ -5,9 +5,10 @@
 int get_size(listint_t *head);
 
 /**
+ * get_size - returs size of the node
+ * @head: a pointer to the head of the node
  *
- *
- *
+ * Return: size of the node
  */
 
 int get_size(listint_t *head)
@@ -38,14 +39,14 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	unsigned int size = get_size(*head);
 	unsigned int count = 0;
 
-	if (*head == NULL)
-		return (NULL);
 	new = malloc(sizeof(listint_t));
 	if (new == NULL)
 		return (NULL);
 	new->n = n;
 	new->next = NULL;
 	if (idx > size)
+		return (NULL);
+	if (temp->next == NULL)
 		return (NULL);
 	if (idx == 0)
 	{
