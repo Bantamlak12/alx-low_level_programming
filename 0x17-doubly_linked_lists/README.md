@@ -4,6 +4,15 @@
 
 In this project I've learned what doubly linked lists are, and how to use them.
 
+## **Header**
+
+[lists.h: ](https://github.com/Bantamlak12/alx-low_level_programming/blob/master/0x17-doubly_linked_lists/lists.h) contains structure of the linked list and prototype declarations.
+
+## **Test ✔️**
+
+[test: ](https://github.com/Bantamlak12/alx-low_level_programming/tree/master/0x17-doubly_linked_lists/test)A test folder provided by alx_africa in partnership with Holberton school.
+
+
 ## **Tasks 📃**
 
 - **0. Print list**
